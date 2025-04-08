@@ -4,17 +4,7 @@
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**name** | **string** |  |
-**titleSingular** | **string** |  |
-**titlePlural** | **string** |  |
-**level** | **float** |  |
-**url** | **string** |  |
-**isLeaf** | **bool** |  |
-**idCategory** | **int** |  |
-**idParentCategory** | **int** |  |
-**shippingCategory** | **string** |  |
-**variableFee** | **float** |  |
-**fixedFee** | **float** |  |
-**vat** | **float** |  |
+**id** | **string** | The id of the category | [optional]
+**labels** | [**\OpenAPI\Client\Mirakl\Model\CategoryLabel[]**](CategoryLabel.md) | Labels for the category with their associated locale | [optional]
 
 [[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
