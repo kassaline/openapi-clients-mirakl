@@ -1,4 +1,5 @@
 .gitignore
+.openapi-generator-ignore
 .php-cs-fixer.dist.php
 .travis.yml
 README.md
@@ -1825,6 +1826,7 @@ test/Api/InvoicingAndAccountingApiTest.php
 test/Api/MessagesApiTest.php
 test/Api/MultipleShipmentsApiTest.php
 test/Api/OffersApiTest.php
+test/Api/OrdersApiTest.php
 test/Api/PicklistsApiTest.php
 test/Api/PlatformSettingsApiTest.php
 test/Api/ProductsApiTest.php
